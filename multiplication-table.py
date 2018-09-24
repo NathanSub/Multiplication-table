@@ -1,7 +1,7 @@
 """
 multiplication-table.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Nathan Subrahmanian
+Credit: https://wiki.python.org/moin/ForLoop
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -21,3 +21,7 @@ Height of multiplication table: 8
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
 """
+width = int(input("Width?"))
+height = int(input("Height?"))
+for n in range(0, width)
+    print("x")
