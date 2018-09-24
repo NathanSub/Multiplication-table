@@ -24,4 +24,4 @@ Height of multiplication table: 8
 width = int(input("Width?"))
 height = int(input("Height?"))
 for n in range(0, width)
-    print "x" % n
+    print("x") % n
