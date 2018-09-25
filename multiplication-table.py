@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Nathan Subrahmanian
-Credit: https://wiki.python.org/moin/ForLoop
+Credit: https://stackoverflow.com/questions/493386/how-to-print-without-newline-or-space
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -23,5 +23,7 @@ Height of multiplication table: 8
 """
 width = int(input("Width?"))
 height = int(input("Height?"))
-for h in range(0, height):
+for h in range(1, height):
     print(h)
+    for w in range(1,width):
+        print("{0:>3}".format(h*w), end='')
